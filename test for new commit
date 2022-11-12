@@ -1,0 +1,27 @@
+add file to commit for test
+3R36M2529KI2189424543 - https://edu.demography.site/users/education
+Людкевич Ольга
+
+Успешная работа с GitHub (Push, Pull)
+Удалил и создал новый репозиторий на GitHub
+
+**************
+$ git push Blum master
+To https://github.com/G1tV0j2cK/Blum.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/G1tV0j2cK/Blum.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+- Это означает, что я должен сначала сделать Pull, а потом Push
+**************
+E45. Включена опция 'readonly' (добавьте !, чтобы обойти проверку) 
+'readonly' option is set (use ! to override). 
+Вы пытаетесь записать файл, для которого установлен режим "только для чтения". 
+Для записи этого файла необходимо либо выключить опцию 'readonly', 
+либо добавить к команде символ '!'. 
+Пример:: w следует изменить на:: w! E294, E295, E301.
+**************
